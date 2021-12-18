@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Feedback
+
+This is a React app to leave a feedback for a service or a product
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
