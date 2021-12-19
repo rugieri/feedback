@@ -1,4 +1,3 @@
-import React from 'react';
 import Header from './components/Header';
 
 function App() {
@@ -6,7 +5,7 @@ function App() {
     <>
       <Header />
       <div className="container">
-        <h1>Feedback</h1>
+        <h1>App</h1>
       </div>
     </>
   );
