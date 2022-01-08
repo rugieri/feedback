@@ -15,15 +15,16 @@
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
     "uuid": "^8.3.2",
-    "web-vitals": "^2.1.0"
+    "web-vitals": "^2.1.0",
+    "yarn": "^1.22.17"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server --watch db.json --port 5000",
-    "dev": "concurrently \"yarn start server\" \"yarn start\""
+    "server": "npx json-server --watch db.json --port 5000",
+    "dev": "concurrently \"yarn server\" \"yarn start \""
   },
   "eslintConfig": {
     "extends": [
