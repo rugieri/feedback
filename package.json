@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "concurrently": "^7.0.0",
     "jason-server": "^3.0.0",
     "nth-check": "2.0.1",
     "react": "^17.0.2",
@@ -21,7 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server --watch db.json --port 5000"
+    "server": "json-server --watch db.json --port 5000",
+    "dev": "concurrently \"yarn start server\" \"yarn start\""
   },
   "eslintConfig": {
     "extends": [
